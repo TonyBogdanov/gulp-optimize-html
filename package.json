@@ -1,0 +1,33 @@
+{
+  "name": "gulp-optimize-html",
+  "version": "1.0.0",
+  "description": "Optimizes / minifies HTML, inline and external CSS and JS. Follows HTML imports. Uses cssnano, uglify-js and html-minifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyBogdanov/gulp-optimize-html.git"
+  },
+  "keywords": [
+    "html",
+    "minify",
+    "css",
+    "js",
+    "import",
+    "uglify"
+  ],
+  "author": "Tony Bogdanov <www.tonybogdanov.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TonyBogdanov/gulp-optimize-html/issues"
+  },
+  "homepage": "https://github.com/TonyBogdanov/gulp-optimize-html#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "cssnano": "^3.7.1",
+    "html-minifier": "^2.1.5",
+    "uglify-js": "^2.6.4"
+  }
+}
